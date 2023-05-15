@@ -73,5 +73,7 @@ public class Main {
         }
         System.out.println("Сотрудник с максимальной зп - " + x);
         System.out.println();
+
+
     }
 }
