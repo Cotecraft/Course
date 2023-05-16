@@ -2,13 +2,14 @@ public class Employee {
     private String fullName;
     private int office;
     private int salary;
+    private int id;
     public static int count = 1;
 
     public Employee(String fullName, int office, int salary) {
         this.fullName = fullName;
         this.office = office;
         this.salary = salary;
-        count++;
+        id = count++;
     }
 
     public String getFullName(){return this.fullName;}
@@ -16,5 +17,5 @@ public class Employee {
     public int getSalary() {return this.salary;}
     public void setOffice(int office) {this.office = office;}
     public void setSalary(int salary) {this.salary = salary;}
-    public String toString() {return "Имя " + this.fullName + " отдел " + this.office + " ЗП " + this.salary;}
+    public String toString() {return "Имя " + this.fullName + " отдел " + this.office + " ЗП " + this.salary + " Идентификационный номер " + id;}
 }

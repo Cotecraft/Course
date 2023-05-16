@@ -49,7 +49,7 @@ public class Main {
     }
 
     public static void avgSallary(Employee[] employeeBook) {
-        double avgSum = calculateSum(employeeBook) / employeeBook.length;
+        double avgSum = (double) calculateSum(employeeBook) / employeeBook.length;
         System.out.println("Средняя зп + " + avgSum);
     }
     public static void printEmplyeeMinSallary(Employee[] employeeBook) {
@@ -73,5 +73,7 @@ public class Main {
         }
         System.out.println("Сотрудник с максимальной зп - " + x);
         System.out.println();
+
+
     }
 }
